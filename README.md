@@ -1,6 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## PayZen - Group 35 Project
 
-## Getting Started
+PayZen helps small business owners send and track payment invoice.
+
+## Frontend Stacks
+
+1. Nextjs, Tailwind css and Typescript.
+
+2. React Query for API call
+
+3. Zustand for State management.
+
+
+## Contributing Guide
+
+### Step 1
+
+Clone the project to your machine using ``git clone https://github.com/Kluserthon-grp35/Frontend.git``
+
+### Step 2
+
+Install all packages and dependencies by running ``yarn`` or ``yarn install``
+
+NOTE: we are using ``yarn`` which is recommended, but you can as well use ``npm install``.
+
+IMPORTANT: This project is using Node version 18.17.0 or greater, if you are facing error pertaining to this, simply install the node version from nodejs.org or if you have nvm on your machine, use ``nvm install 18.17.0``
+
+## Step 3
+
+Checkout to your own branch using ``git checkout -b yourname-fe`` e.g git checkout -b stephen-fe.
+
+Don't make changes to the main branch directly, abeg.
+
+### Step 3
+
+Check the codebase and understand the structure before contributing
+
+### Step 4
+
+Once you understand how the project is structured, you can start writing code!
+
+### Step 5
+
+Commit and push to your branch, then send a Pull Request.
+
+NOTE: If your PR has conflict, it will be rejected until you solve it. And please, don't force push.
+
+The best way to avoid conflict is to always push from the main branch (``using git pull origin main``) before pushing your code.
+
+Oh, commit messages are important too. Let it be descriptive enough. Below are examples:
+
+If you fix the logo height, a commit message will be like ``FIX: I adjusted the logo``
+Or if you add new feature, a commit message could look something like this: ``CHORE: Fetching all invoices is completed``
+Or if you install new packages, you can say: ``INSTALL: I install axios package``.
+
+Remember, always keep your commits clean and meaningful.
+
+### Step 6:
+
+Ask someone to review and merge your commit.
+
+
+
+
+
+
+
+
 
 First, run the development server:
 
@@ -15,26 +80,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
