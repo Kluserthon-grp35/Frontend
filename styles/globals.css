@@ -21,6 +21,8 @@
     --color-background: #FBFDFF;
     --color-text: #1D1C1C;
     --color-text-light: #888888;
+    --color-accent1: #B6CCD899;
+    --color-accent2: #71C4EF99;
     --background-gradient: linear-gradient(109deg, #3B3C3D -38.08%, #00668C 100%);
   }
 
