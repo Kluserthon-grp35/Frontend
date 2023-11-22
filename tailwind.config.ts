@@ -13,9 +13,11 @@ const config: Config = {
         secondary: 'var(--color-secondary)',
         forground: 'var(--color-foreground)',
         text: 'var(--color-text)',
-        'text-light': 'var(--color-text-light)',
+        light: 'var(--color-text-light)',
+        plight: 'var(--color-accent1)',
+        pdark: 'var(--color-accent2)',
       },
-      background: {
+      backgroundImage: {
         gradient: 'var(--background-gradient)',
       },
     },
