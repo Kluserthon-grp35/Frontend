@@ -1,4 +1,4 @@
-## PayZen - Group 35 Project
+## PayZen - Kluserthon Group 35 Project
 
 PayZen helps small business owners send and track payment invoice.
 
@@ -41,7 +41,7 @@ Once you understand how the project is structured, you can start writing code!
 
 ### Step 5
 
-Commit and push to your branch, then send a Pull Request.
+Commit and push to your branch (using ``git push origin yourbranchname``), then send a Pull Request.
 
 NOTE: If your PR has conflict, it will be rejected until you solve it. And please, don't force push.
 
