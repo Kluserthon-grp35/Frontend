@@ -12,7 +12,7 @@ export default function Button({
     return (
         <button
             className={` 
-                flex justify-center items-center rounded-md h-[40px] font-medium
+                flex justify-center items-center rounded-md h-[40px] font-medium hover:opacity-75
                 ${
                     size === 'sm' && ' w-[130px]' ||
                     size === 'full' && ' w-full'
