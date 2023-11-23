@@ -15,15 +15,6 @@ const CustomerContent = () => {
           Customers
         </h2>
         <table className="min-w-full  border-t border-b border-stone-300 border-opacity-40">
-          <thead>
-            <tr className="">
-              <th className="py-2"></th>
-              <th className="py-2"></th>
-              <th className="py-2"></th>
-              <th className="py-2"></th>
-            </tr>
-          </thead>
-          
           <tbody>
             <tr className="h-20 mb-16 border-b">
               {/**col 1 */}
@@ -68,15 +59,14 @@ const CustomerContent = () => {
                   </p>
                 </div>
               </td>
-
+              
+              {/** create invoice button */}
               <td className="py-2 pl-4">
-                <div className="space-x-6">
-                  <button className=" h-10 text-right bg-sky-800 rounded-lg text-white px-4 py-2 rounded-md text-sm">
-                    <div className="text-[14px] font-normal  leading-[14.20px]">
-                      Create invoice
-                    </div>
-                  </button>
-                </div>
+                <button className=" h-10  bg-sky-800 rounded-lg text-white px-4 py-2 rounded-md text-sm">
+                  <div className="text-[14px] font-normal  leading-[14.20px]">
+                    Create invoice
+                  </div>
+                </button>
               </td>
             </tr>
           </tbody>
