@@ -6,7 +6,7 @@ import Image from "next/image"
 import Avater from "/public/img/testimonial.png"
 import { Menu, MenuItem } from "@mui/material";
 import Button from "@/components/Button";
-// import MobileSidebar from "./MobileSidebar";
+import MobileSidebar from "../Sidebar/MobileSidebar";
 
 interface iNav {
     PageTitle?: string
@@ -93,7 +93,7 @@ const DashNavbar = ({ PageTitle = "Dashboard" }: iNav) => {
                 </Menu>
 
             </div>
-            {/* {openMobileMenu && <MobileSidebar />} */}
+            {openMobileMenu && <MobileSidebar />}
         </div>
     )
 }

@@ -23,10 +23,12 @@ const DashSidebar = () => {
                         <li
                             key={index}
                             className={router.pathname === `${item.url} ` || router.pathname.includes(item.url)
-                                ? "my-6 cursor-pointer flex items-center gap-2 text-[16px] leading-[20px] text-[#00668C] py-[16px] px-[24px] rounded-[4px]"
+                                ? "my-6 cursor-pointer flex items-center gap-2 text-[16px] leading-[20px] text-[#00668C] py-[16px] px-[24px] rounded-[4px] bg-[#F5F4F1]"
                                 : "my-6 cursor-pointer flex items-center gap-2 text-[16px] leading-[20px] text-[#8E8E8E] hover:opacity-75 py-[16px] px-[24px]"}
                         >
-                            {router.pathname === `${item.url}` || router.pathname.includes(item.url) ? item.whiteIcon : item.mainIcon}
+                           <span className={router.pathname.includes(item.url) ? "p-1 bg-[#FFFFFF] shadow-sm rounded-[5px]" : "p-1 bg-[#F5F4F1] rounded-[5px]"}>
+                             {router.pathname === `${item.url}` || router.pathname.includes(item.url) ? item.mainIcon : item.whiteIcon}
+                             </span>
                             <Link href={item.url}>
                                 {item.title}
                             </Link>

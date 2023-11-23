@@ -17,12 +17,13 @@ const DashboardLayout = ({ children }: any) => {
           <DashNavbar />
         </div>
 
-        <main className="main-content pt-[100px] px-4 md:px-[2rem] py-[2rem] bg-gray-200">
-          {children}
-        </main>
-      </div>
-    </div>
-  );
-};
+                <main className="main-content min-h-screen    bg-[#F5F4F1] pt-[100px] px-4 md:px-[2rem] py-[2rem]">
+                    {children}
+                </main>
+
+            </div>
+        </div>
+    )
+}
 
 export default DashboardLayout;
