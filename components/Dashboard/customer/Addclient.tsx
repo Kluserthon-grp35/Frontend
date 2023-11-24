@@ -59,7 +59,6 @@ const Addclient_ = () => {
                     type="tel"
                     id="phone"
                     name="phone"
-                    pattern="[0-9]{10}"
                     className="mt-1 p-2 w-full  text-stone-600 text-s font-medium leading-tight focus:outline-none"
                     placeholder="Phone number"
                   />
@@ -84,6 +83,23 @@ const Addclient_ = () => {
               </tr>
             </tbody>
           </table>
+          {/* Submit Button */}
+          <div className="mt-6 space-x-3 space-y-6 flex justify-end">
+            <div className="space-x-3 space-y-6">
+              <button
+                type="submit"
+                className=" px-4 py-2 bg-stone-300 bg-opacity-60 rounded-[10px] text-white rounded-md hover:bg-stone-400 focus:outline-none"
+              >
+                Cancel
+              </button>
+              <button
+                type="submit"
+                className=" px-4 py-2 bg-sky-800 bg-opacity-60 rounded-[10px] text-white rounded-md hover:bg-sky-900 focus:outline-none"
+              >
+                Save
+              </button>
+            </div>
+          </div>
         </form>
       </div>
     </div>
