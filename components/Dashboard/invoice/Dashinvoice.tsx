@@ -9,6 +9,11 @@ const totalInvoice = 15;
 const pendingInvoice = 14;
 const totalClient = 250;
 const totalRevenue = "65k";
+const invoiceNumber = "PZ - 00001";
+const date = "30th Nov, 2023";
+const paidStatus = "paid";
+const amount = "N 25,000.00";
+const customerName = "Kemi Falola";
 
 const Dashinvoice = () => {
   return (
@@ -73,9 +78,52 @@ const Dashinvoice = () => {
               </div>
             </div>
           </div>
+
+           {/** Invoice Container */}
+           <div className="w-full lg:w-[960px] h-[386px] bg-white rounded-[10px] p-5">
+            <h3 className="text-justify text-stone-900 text-xl leading-[34.45px] font-medium">
+              Invoices
+            </h3>
+            <div className="overflow-x-auto overflow-y-auto">
+              <table className="min-w-full  space-y-4">
+                <thead className="h-8 bg-stone-300">
+                  <tr className="  w-[35px] h-[9px] text-justify text-stone-900 text-opacity-80 text-sm font-medium leading-normal">
+                    <th className="py-2">INVOICE NO</th>
+                    <th className="py-2">CLIENT</th>
+                    <th className="py-2">DATE</th>
+                    <th className="py-2">STATUS</th>
+                    <th className="py-2 pl-4">AMOUNT</th>
+                    
+                  </tr>
+                </thead>
+                <tbody className="">
+                  <tr className="bg-gray-200 bg-opacity-30">
+                    <td className="py-2 text-justify text-stone-900 text-opacity-80 text-xs font-medium  leading-tight">
+                      {invoiceNumber}
+                    </td>
+                    <td className="py-2 text-justify text-stone-900 text-opacity-80 text-xs font-medium  leading-tight">
+                      {customerName}
+                    </td>
+                    <td className="py-2 text-justify text-stone-900 text-opacity-80 text-xs font-medium  leading-tight">
+                      {date}
+                    </td>
+                    <td className="py-2 w-[26px] h-[9px] text-justify text-green-600 text-xs font-medium  leading-tight uppercase ">
+                      {paidStatus}
+                    </td>
+
+                    <td className="py-2">
+                      <div className="text-stone-900 text-opacity-80 text-xs font-medium leading-tight">
+                        {amount}
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
-    </div>
   );
 };
 
